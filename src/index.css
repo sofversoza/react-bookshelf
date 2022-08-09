@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
+/* for dark mode — so the whole color applies to the whole background */
 html, body, #root {
   height: 100%;
 }
@@ -8,13 +9,13 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
   font-size: 1.2em;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   word-spacing: 2px;
   margin: 0;
   background: #EAE8E8;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -28,6 +29,11 @@ input, textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 .page-title {

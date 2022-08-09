@@ -1,0 +1,57 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Things I Don't Want To Know",
+      "subtitle": "On Writing: (Living Autobiography #1)",
+      "author": "Deborah Levy",
+      "date": "2013",
+      "pages": "176",
+      "genre": [
+        "Memoir",
+        "Autobiography",
+        "Nonfiction",
+        "Essays",
+        "Feminism"
+      ],
+      "photo": "./src/assets/imgs/levy.jpeg",
+      "description": "Things I Don't Want to Know is the first in Deborah Levy's essential three-part 'Living Autobiography' on writing and womanhood.",
+      "description2": "Taking George Orwell's famous essay, 'Why I Write', as a jumping-off point, Deborah Levy offers her own indispensable reflections of the writing life. With wit, clarity and calm brilliance, she considers how the writer must stake claim to that contested territory as a young woman and shape it to her need. Things I Don't Want to Know is a work of dazzling insight and deep psychological succour, from one of our most vital contemporary writers."
+    },
+    {
+      "id": "2",
+      "title": "Notes Of A Dirty Old Man",
+      "author": "Charles Bukowski",
+      "date": "1969",
+      "pages": "330",
+      "genre": [
+        "Memoir",
+        "Short Stories",
+        "Fiction",
+        "Poetry",
+        "Classic"
+      ],
+      "photo": "https://images.app.goo.gl/4rFz6sFBCJGby9ei8",
+      "description": "Notes of a Dirty Old Man is a collection of underground newspaper columns written by Charles Bukowski for the Open City newspaper that were collated and published by Essex House in 1969. His short articles were marked by his trademark crude humor, as well as his attempts to present a 'truthful' or objective viewpoint of various events in his life and his own subjective responses to those events."
+    }
+    ,
+    {
+      "id": "3",
+      "title": "Perfume",
+      "subtitle": "The Story Of A Murderer",
+      "author": "Patrick Süskind",
+      "date": "1987",
+      "pages": "386",
+      "genre": [
+        "Fiction",
+        "Historical Fiction",
+        "Mystery",
+        "Thriller",
+        "Classic"
+      ],
+      "photo": "https://images.app.goo.gl/Qkawkmf4Km8A7mbN9",
+      "description": "An acclaimed bestseller and international sensation, Patrick Suskind's classic novel provokes a terrifying examination of what happens when one man's indulgence in his greatest passion—his sense of smell—leads to murder.",
+      "description2": "In the slums of eighteenth-century France, the infant Jean-Baptiste Grenouille is born with one sublime gift—an absolute sense of smell. As a boy, he lives to decipher the odors of Paris, and apprentices himself to a prominent perfumer who teaches him the ancient art of mixing precious oils and herbs. But Grenouille's genius is such that he is not satisfied to stop there, and he becomes obsessed with capturing the smells of objects such as brass doorknobs and fresh-cut wood. Then one day he catches a hint of a scent that will drive him on an ever-more-terrifying quest to create the 'sultimate perfume'—the scent of a beautiful young virgin. Told with dazzling narrative brilliance, Perfume is a hauntingly powerful tale of murder and sensual depravity."
+    }
+  ]
+}

@@ -1,14 +1,31 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css'
+import Home from './pages/home/Home'
+import Add from './pages/add/Add'
+import Search from './pages/search/Search'
+import Book from './pages/book/Book'
+import Navbar from './components/Navbar'
 
 function App() {
 	return (
 		<div className='App'>
-      <h1>Homepage</h1>
-			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque ipsum aut suscipit quam
-				perspiciatis iusto deleniti officiis nobis, omnis facilis excepturi, cum repellat veritatis,
-				impedit at eius. Libero, cum minima?
-			</p>
+			<BrowserRouter>
+				<Navbar />
+				<Switch>
+					<Route exact path='/'>
+						<Home />
+					</Route>
+					<Route path='/add'>
+						<Add />
+					</Route>
+					<Route path='/search'>
+						<Search />
+					</Route>
+					<Route path='/books/:id'>
+						<Book />
+					</Route>
+				</Switch>
+			</BrowserRouter>
 		</div>
 	)
 }
