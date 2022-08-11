@@ -1,0 +1,10 @@
+{
+	"editor.formatOnPaste": true,
+	"prettier.proseWrap": "preserve",
+	"editor.minimap.autohide": true,
+	"diffEditor.wordWrap": "inherit",
+	"files.autoSave": "off",
+	"editor.fontSize": 12,
+	"editor.wordWrap": "off",
+	"editor.autoClosingDelete": "auto"
+}
