@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
+import { useTheme } from '../../hooks/useTheme'
 import './Book.css'
 import img from '../../assets/imgs/levy.jpeg'
 
@@ -8,9 +9,10 @@ function Book() {
 	const { id } = useParams()
 	const url = 'http://localhost:3000/books/' + id
 	const { error, isPending, data: book } = useFetch(url)
+	const { mode } = useTheme()
 
 	return (
-		<div className='book'>
+		<div className={`book ${mode}`}>
 			{error && <p className='error'>{error}</p>}
 			{isPending && <p className='loading'>Loading...</p>}
 			{book && (

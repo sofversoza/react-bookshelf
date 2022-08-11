@@ -50,3 +50,9 @@
   font-weight: 400;
   padding-top: 3px;
 }
+
+/* dark mode */
+.book.dark {
+  background: #555;
+  color: #e4e4e4;
+}

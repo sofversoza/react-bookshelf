@@ -50,3 +50,14 @@
   border-radius: 4px;
   margin: 20px auto 0;
 }
+
+/* dark mode */
+.book-list .card.dark {
+  background: #555;
+}
+.book-list .card.dark p,
+.book-list .card.dark h3,
+.book-list .card.dark div {
+  color: #e4e4e4;
+}
+

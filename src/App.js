@@ -5,12 +5,17 @@ import Add from './pages/add/Add'
 import Search from './pages/search/Search'
 import Book from './pages/book/Book'
 import Navbar from './components/Navbar'
+import ThemeSelector from './components/ThemeSelector'
+import { useTheme } from './hooks/useTheme'
 
 function App() {
+	const { mode } = useTheme()
+
 	return (
-		<div className='App'>
+		<div className={`App ${mode}`}>
 			<BrowserRouter>
 				<Navbar />
+				<ThemeSelector />
 				<Switch>
 					<Route exact path='/'>
 						<Home />

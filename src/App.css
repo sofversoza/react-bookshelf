@@ -2,3 +2,6 @@
   /* for dark mode — so the whole color applies to the whole background */
   min-height: 100%;
 }
+.App.dark {
+  background: #333;
+}
