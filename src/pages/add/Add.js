@@ -1,4 +1,4 @@
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react'
 import { useFetch } from '../../hooks/useFetch'
 import './Add.css'
@@ -11,7 +11,7 @@ function Add() {
 	const [genres, setGenres] = useState([])
 
 	const genreInput = useRef(null)
-	const history = useHistory()
+	const navigate = useNavigate()
 
 	const { postData, data, error } = useFetch(
 		'http://localhost:3000/books',
@@ -46,9 +46,9 @@ function Add() {
 	// redirect user when we get a data response
 	useEffect(() => {
 		if (data) {
-			history.push('/')
+			navigate('/')
 		}
-	}, [data])
+	}, [data, navigate])
 
 	return (
 		<div className='add'>
